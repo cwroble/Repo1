@@ -34,7 +34,8 @@ pipeline {
           }
         }
       }
-      
+   
+  }
   environment {
     MY_NAME = 'Mary'
     TEST_USER = credentials('test-user')
